@@ -1,0 +1,8 @@
+01:57:54 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.126.1:1932
+01:57:55 [IisembodimentSkill] INFO  IisembodimentSkill:173 - Starting skill
+01:58:40 [IisembodimentSkill] WARN  Flow: 93 - Flow unknown unresponsive, 1707 ms since last event poll
+01:58:55 [IisembodimentSkill] WARN  Flow: 93 - Flow unknown unresponsive, 1066 ms since last event poll
+01:59:45 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+01:59:45 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+01:59:45 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+01:59:45 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood

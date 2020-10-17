@@ -1,0 +1,6 @@
+17:14:41 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.126.1:1932
+17:14:41 [IisembodimentSkill] INFO  IisembodimentSkill:173 - Starting skill
+17:15:06 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+17:15:06 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+17:15:06 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+17:15:06 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood

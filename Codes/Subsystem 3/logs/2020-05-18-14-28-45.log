@@ -1,0 +1,20 @@
+14:28:46 [Skill] INFO  Skill:139 - Connecting to Furhat server on 192.168.126.1:1932
+14:28:47 [IisembodimentSkill] INFO  IisembodimentSkill:173 - Starting skill
+14:29:41 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+14:29:41 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+14:29:41 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+14:29:41 [pool-2-thread-1] ERROR IdfMultiIntentClassifier:239 - Could not find class for entity @food in BuyFood
+14:57:10 [Broker Client] ERROR BrokerClient:152 - Unexpected disconnect from broker
+14:57:10 [EventSystem] ERROR EventSystem:119 - Problem sending to broker
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:134)
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:276)
+	at furhatos.event.BrokerClient.sendToServer(BrokerClient.java:207)
+	at furhatos.event.BrokerClient.sendTo(BrokerClient.java:169)
+	at furhatos.event.BrokerClient.send(BrokerClient.java:162)
+	at furhatos.event.EventSystem.distributeExternal(EventSystem.java:117)
+	at furhatos.event.EventSystem.distributeNextEvent(EventSystem.java:254)
+	at furhatos.event.EventSystem.runUntilStopped(EventSystem.java:227)
+	at java.lang.Thread.run(Thread.java:748)
