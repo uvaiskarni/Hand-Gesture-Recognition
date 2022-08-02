@@ -1,6 +1,6 @@
 # Hand-Gesture-Recognition
 Recognition of hand gestures by prediction appropriate position of points
-on the hand and finally based on the gesture the furhat bot responds.
+on the hand and finally the furhat bot responds to gesture with a response.
 
 • Design
 An Object Detection API to train a Fast Region Convolution Neural Network
